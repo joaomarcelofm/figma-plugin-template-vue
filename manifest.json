@@ -1,9 +1,9 @@
 {
   "name": "PLUGIN-NAME",
   "api": "1.0.0",
-  "main": "src/code.js",
   "editorType": [
     "figma"
   ],
+  "main":  "dist/src/code/code.js",
   "ui": "dist/src/ui/ui.html"
 }
