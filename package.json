@@ -4,8 +4,10 @@
   "description": "Your Figma plugin",
   "main": "src/code.js",
   "scripts": {
-    "start": "vite build --watch",
-    "build": "vite build"
+    "start": "concurrently --kill-others -p \"{name}\" -n \"ui  ,code\" -c \"cyan.bold,green.bold\" \"npm run start:ui\" \"npm run start:code\"",
+    "start:ui": "vite build --watch --config vite-ui.config.js",
+    "start:code": "vite build --watch --config vite-code.config.js",
+    "build": "vite build --config vite-ui.config.js && vite build --config vite-code.config.js"
   },
   "author": "",
   "license": "",
@@ -17,6 +19,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.1",
     "@vue/compiler-sfc": "^3.2.26",
+    "concurrently": "^7.6.0",
     "vite": "^2.7.10",
     "vite-plugin-singlefile": "^0.6.3"
   }
