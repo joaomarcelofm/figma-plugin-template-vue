@@ -42,3 +42,15 @@ When running `npm start` your application will be compiled on save, but you can 
 
 -   Create Figma Plugin ([Utilities](https://yuanqing.github.io/create-figma-plugin/utilities/) & [Recipes](https://yuanqing.github.io/create-figma-plugin/recipes/))
 -   [UI with Figma DS](https://github.com/alexwidua/figma-plugin-ds-vue)
+
+## Contributing
+
+Contributions are welcome! 
+However, it's important to maintain the template's simplicity, avoiding opinionated features that are only relevant for some use cases.
+
+### Support
+
+If you benefit from this template and can [support me](https://www.buymeacoffee.com/joaomarcelofm), I'd be very grateful!
+
+[!["Buy Me A Coffee"](https://power-firefly-112.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fd2076882-434f-446a-9854-ec03439a9b71%2F18091675-fe14-43c6-bb8a-2daf505bb90c%2Fbmc-button.png?table=block&id=974f0e9d-f69d-48f9-8c2e-683b3e32d66c&spaceId=d2076882-434f-446a-9854-ec03439a9b71&width=160&userId=&cache=v2)](https://www.buymeacoffee.com/joaomarcelofm)
+
