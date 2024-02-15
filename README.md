@@ -32,7 +32,7 @@ When running `npm start` your application will be compiled on save, but you can 
 
 \* The `manifest.json` file in this template doesn't include an `id` for the plugin. This information will be provided by Figma at the time of publishing the plugin which then should be included to your project's manifest.
 
-## Tooling
+## Features
 
 -   [Vue3](https://v3.vuejs.org/)
 -   [Vite](https://vitejs.dev/)
