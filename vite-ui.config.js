@@ -15,9 +15,6 @@ export default defineConfig({
     emptyOutDir: false,
 		rollupOptions: {
 			inlineDynamicImports: true,
-			output: {
-				manualChunks: () => "everything.js",
-			},
       input: {
         index: path.resolve(__dirname, "src/ui/ui.html"),
       },
