@@ -41,7 +41,6 @@ When running `npm start` your application will be compiled on save, but you can 
 ## Useful resources
 
 -   Create Figma Plugin ([Utilities](https://yuanqing.github.io/create-figma-plugin/utilities/) & [Recipes](https://yuanqing.github.io/create-figma-plugin/recipes/))
--   [UI with Figma DS](https://github.com/alexwidua/figma-plugin-ds-vue)
 
 ## Contributing
 
